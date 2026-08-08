@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const target=document.querySelector('#legal-content');const slug=document.body.dataset.legal;if(target&&window.JOINWARE_LEGAL?.[slug])target.innerHTML=window.JOINWARE_LEGAL[slug]});
